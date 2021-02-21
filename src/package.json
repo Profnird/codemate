@@ -1,0 +1,28 @@
+{
+  "name": "codemate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Profnird/codemate.git"
+  },
+  "keywords": [
+    "codemate",
+    "nirdteq",
+    "profnird",
+    "matesuit"
+  ],
+  "author": "nirdteq",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Profnird/codemate/issues"
+  },
+  "homepage": "https://github.com/Profnird/codemate#readme",
+  "devDependencies": {
+    "electron": "^11.3.0"
+  }
+}
