@@ -24,5 +24,9 @@
   "homepage": "https://github.com/Profnird/codemate#readme",
   "devDependencies": {
     "electron": "^11.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1"
   }
 }
