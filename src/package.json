@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "express": "^4.17.1",
     "jquery": "^3.5.1"
   }
 }
