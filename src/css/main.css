@@ -1,0 +1,169 @@
+body,html{
+  margin: 0;
+  padding: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position:fixed;
+  /* background-color: silver; */
+}
+*{
+  box-sizing: border-box;
+}
+/* main-container */
+.main-container{
+  /* border: 1px solid; */
+  margin: 0px;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+/* sidebar */
+.side-bar{
+  /* border: 1px solid green; */
+  margin: 0px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  background: url('../img/culkya-png.jpg');
+  color: white;
+}
+/* logoText */
+.cdmate{
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  text-shadow: 2px 2px 8px black;
+  background: #202d3b;
+}
+.description{
+  /* border: 1px solid; */
+  text-align: left;
+  padding: 10px;
+  background: #202d3b;
+  font-family: monospace;
+  font-size: 16px;
+}
+img{
+  opacity: 0.4;
+}
+#cdlogo{
+  font-size: 3rem;
+  font-family:sans-serif;
+  width: 100%;
+}
+#slogan{
+  font-family:sans-serif;
+}
+/* main content */
+.main-content{
+  /* border: 1px solid red; */
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+/* form container */
+.form-container{
+  /* border: 1px solid; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* styling input */
+input{
+  outline: none;
+  border: 1px solid #202d3b;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 14px;
+}
+input:focus{
+  box-shadow: 0px 2px 2px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+input::placeholder{
+  /* text-align: center; */
+  border: none;
+}
+/* --- */
+.login-form{
+  /* border: 1px solid; */
+  width: 450px;
+  height: 350px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.login-form button{
+  width: 100px;
+  height: 30px;
+  border: none;
+  margin: 10px;
+  background: url('../img/culkya-png.jpg') no-repeat center fixed;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.login-form input{
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+}
+.login-form button:focus{
+  outline-color: orange;
+}
+/* login/signup nav to switch */
+.log-nav{
+  display: flex;
+  justify-content: flex-end;
+  /* border: 1px solid; */
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+.log-nav ul{
+  display: flex;
+  /* border: 1px solid; */
+  list-style-type: none;
+  padding: 0px;
+  margin: 10px;
+}
+.log-nav ul li{
+  /* border: 1px solid; */
+  padding: 5px;
+  margin: 0px;
+  cursor: pointer;
+}
+.log-nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+.log-nav ul li:hover{
+  color: orange;
+  border-bottom: 1px solid;
+}
+
+.culkya-design{
+  width: 100%;
+  height: 40px;
+}
+img{
+  width: 100%;
+}
+.culkya-design {
+ background: url('../img/culkya-png.jpg') no-repeat center fixed;
+}
+#ageselect{
+  width: 100px;
+  height: 30px;
+}

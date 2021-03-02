@@ -3,41 +3,66 @@
   <head>
     <meta charset="utf-8">
     <title>codemate</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <!-- main container -->
-    <div class="main-contain">
+    <div class="main-container">
       <!-- sidebar -->
       <div class="side-bar">
         <div class="cdmate">
-          LogoHere
+          <div id="cdlogo">CodeMate</div>
+          <div id="slogan">Let's Code Mate!</div>
         </div>
         <div class="description">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
-             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-             <br>Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h2>Akwaaba, Mate!</h2>
+          <p>Learn to code without paying.Completly offline with all needed contents. Practical lessons that would make the best out of you Mate. Its a great excitement to be a Mate.</p>
         </div>
-      </div>
-      <div class="log-nav">
-        <ul>
-          <li>Login</li>
-          <li>Signup</li>
-        </ul>
       </div>
       <!-- main content area to hold forms -->
       <div class="main-content">
+        <div class="log-nav">
+          <ul>
+            <li id="logsystem">Login</li>
+            <li>/</li>
+            <li id="signsystem">Signup</li>
+          </ul>
+        </div>
         <!-- form container -->
         <div class="form-container">
           <!-- forms for login alone -->
-          <form class="login-form">
-            <label for="username">UserName</label>
-            <input type="text" name="username" placeholder="username/name">
-            <label for="pass">UserName</label>
-            <input type="text" name="pass" placeholder="password">
-            <button type="button" name="button">Login</button>
+          <form class="login-form" id="loginsys">
+            <input type="text" name="username" placeholder="username">
+            <input type="password" name="pass" placeholder="password">
+            <button type="button" id="btn" name="button">Login</button>
+            <div class="culkya-design">
+            </div>
+          </form>
+          <!-- forms for Signup -->
+          <form class="login-form" id="signupsys">
+            <input type="text" id="newusername" name="username" placeholder="username" autocomplete="on">
+            <input type="password" id="newuserpass" name="pass" placeholder="password" autocomplete="off">
+            <input type="password" id="confirmpass" name="pass" placeholder="confirm password" autocomplete="off">
+            <select id="ageselect" class="" name="age">
+              <option value="selectage">AgeRange</option>
+              <option value="kidmate">4-12yrs</option>
+              <option value="jnrmate">13-17yrs</option>
+              <option value="snrmate">18+yrs</option>
+            </select>
+            <button type="button" id="signbtn" name="button">Signup</button>
+            <div class="culkya-design">
+            </div>
           </form>
         </div>
       </div>
     </div>
   </body>
+  <!-- require jquery in page -->
+  <script>
+    window.$ = window.jQuery = require('jquery');
+  </script>
+  <script src="./scripts/main.js"></script>
+  <script src="./db/main-db.js"></script>
+  <script src="./db/security-db.js"></script>
 </html>

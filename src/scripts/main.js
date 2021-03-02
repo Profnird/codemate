@@ -1,0 +1,12 @@
+$(document).ready(function(){
+  $("#signupsys").hide();
+  $("#loginsys").show();
+});
+$("#signsystem").click(function(){
+  $("#signupsys").show();
+  $("#loginsys").hide();
+});
+$("#logsystem").click(function(){
+  $("#signupsys").hide();
+  $("#loginsys").show();
+});
