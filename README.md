@@ -30,7 +30,9 @@ we will introduce pouchdb in order to sync data from the app to cloudserver | IB
 For Offline first system.
 
 # Project Documentation
-video link and project description would be released soon to help anyone to understand the journey and how each person could contribute to the big show ;)
+
+#video link and project description would be released soon to help anyone to understand the journey and how each person could contribute to the big show ;)
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 # Sponsor
 mail us : nirdteq@gmail.com
