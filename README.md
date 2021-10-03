@@ -9,8 +9,11 @@ mail us: nirdteq@gmail.com
 # Electron v11.3 | https://www.electronjs.org/
 
 # fork Repo :)
-#open project in cmd :)
-
+#navigate to project in cmd
+'''
+> $ npm install
+> $ npm run test
+'''
 # Getting Started
 
 # Debugging 
