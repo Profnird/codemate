@@ -14,10 +14,10 @@ mail us: nirdteq@gmail.com
 #navigate to project in cmd
 
 > $ npm install
-run this command above in cmd to install all the dependencies.
+>> run this command above in cmd to install all the dependencies.
 
 > $ npm run test
-run this command in cmd to run the project
+>> run this command in cmd to run the project
 
 
 
