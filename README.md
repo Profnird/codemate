@@ -12,9 +12,10 @@ mail us: nirdteq@gmail.com
 #open project in cmd :)
 
 # Getting Started
+#navigate to project folder in @cmd 
 > $ npm install   
 > // this installs the node modules in the project
-> npm run test < 
+> $ npm run test  
 > //this will run the program simply in a development environment.
 
 # Debugging 
