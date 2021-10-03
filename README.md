@@ -6,15 +6,20 @@ CodeMate version 1.0
 Be a contributor today
 mail us: nirdteq@gmail.com
 
-# Electron v11.3 | https://www.electronjs.org/
+### Electron v11.3 | https://www.electronjs.org/
+
+# Getting Started
 
 # fork Repo :)
 #navigate to project in cmd
-'''
+
 > $ npm install
+run this command above in cmd to install all the dependencies.
+
 > $ npm run test
-'''
-# Getting Started
+run this command in cmd to run the project
+
+
 
 # Debugging 
 Chrome's dev tools are enabled for easy debugging 
