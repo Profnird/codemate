@@ -12,8 +12,8 @@ mail us: nirdteq@gmail.com
 #open project in cmd :)
 
 # Getting Started
-$ npm install   // this installs the node modules in the project
-$ npm test //this will run the program simply in a development environment.
+>> npm install   // this installs the node modules in the project
+>> npm run test //this will run the program simply in a development environment.
 
 # Debugging 
 Chrome's dev tools are enabled for easy debugging 
