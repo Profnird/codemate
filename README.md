@@ -14,7 +14,7 @@ mail us: nirdteq@gmail.com
 # Getting Started
 > $ npm install   
 > // this installs the node modules in the project
-> npm run test 
+> npm run test < 
 > //this will run the program simply in a development environment.
 
 # Debugging 
