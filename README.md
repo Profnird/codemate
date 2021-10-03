@@ -12,10 +12,6 @@ mail us: nirdteq@gmail.com
 #open project in cmd :)
 
 # Getting Started
-'''
-> $ npm install
-> $ npm run test 
-'''
 
 # Debugging 
 Chrome's dev tools are enabled for easy debugging 
