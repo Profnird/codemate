@@ -22,7 +22,7 @@ npm install
 >> run this command above in cmd to install all the dependencies.
 
 ```javascript
-> $ npm run test
+npm run test
 ```
 >> run this command in cmd to run the project
 
