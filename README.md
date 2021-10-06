@@ -12,8 +12,9 @@ mail us: nirdteq@gmail.com
 
 # fork Repo :)
 #navigate to project in cmd
-
+```javascript
 > $ npm install
+```
 >> run this command above in cmd to install all the dependencies.
 
 > $ npm run test
