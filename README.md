@@ -6,18 +6,24 @@ CodeMate version 1.0
 Be a contributor today
 mail us: nirdteq@gmail.com
 
+# Content
+- [Getting Started](#getting-started)
+- [Database](#database-and-datastorage)
+
 ### Electron v11.3 | https://www.electronjs.org/
 
 # Getting Started
+### fork Repo :)
 
-# fork Repo :)
 #navigate to project in cmd
 ```javascript
-> $ npm install
+npm install
 ```
 >> run this command above in cmd to install all the dependencies.
 
+```javascript
 > $ npm run test
+```
 >> run this command in cmd to run the project
 
 
