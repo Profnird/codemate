@@ -1,4 +1,5 @@
 # codemate
+# My Team and I plead with all interest to engage with us we are sorry for the delay and wish we get dedicated team in bringing this project to life
 A Free Software (GNU/GPL license) intended to deliver education on programming in all aspects. CodeMate is a cross-platform desktop application built with electronJs, jQuery, PouchDB, HTML5, CSS, Bootstrap, NodeJs. Its has an offline database built-in with the help of indexedDb inside chrome.
 
 # First Release would be in Soon
