@@ -34,6 +34,10 @@ Chrome's dev tools are enabled for easy debugging
 
 
 # Database and DataStorage
+# https://dexie.org/ 
+Research concluded we go with Dexiedb to replace pouchdb for the meantime
+after project is successfully deployed we would have versions that make use of pouchdb for 
+educational purposes and how both are implemented 
 
 #Indexeddb | https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
 this is the core database of the app
